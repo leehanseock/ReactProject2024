@@ -1,0 +1,13 @@
+.clock {
+    border-width: 11px;
+    border-style: dotted;
+    border-color: darkolivegreen;
+    background-color: black;
+    color: white;
+    font-family: "Book Antiqua";
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    width: 159px;
+}
