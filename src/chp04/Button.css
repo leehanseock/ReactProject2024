@@ -1,0 +1,26 @@
+Button{
+    color : white;
+    font-family: 궁서;
+    padding: 5px 15px;
+    font-size : 14px;
+    margin-right: 10px;
+    border-radius: 60px;
+}
+.bg-green{
+    background-color: dodgerblue;
+}
+
+.bg-red{
+    background-color: RED;
+}
+
+.bg-blue{
+    background-color: orangered;
+}
+
+p{
+    background-color: lightcoral;
+    color : white;
+    font-family: 궁서;
+    font-size:2em;
+}
