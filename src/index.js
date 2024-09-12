@@ -8,12 +8,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ConfirmDialog from "./chp04/ConfirmDialog";
 import Clock from './chp04/clock'
+import CommentList from './chp05/CommentList'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=>{
     root.render(
         <React.StrictMode>
-            <Clock/>
+            <CommentList />
         </React.StrictMode>
     );
     }
