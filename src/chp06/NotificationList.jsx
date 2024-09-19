@@ -3,13 +3,13 @@ import Notification from "./Notification";
 
 const reservedNotifications = [
     {
-        message : "안녕하세요, 오늘 일정을 알려드립니다.👩‍🌾",
+        message : "안녕하세요, 오늘 일정을 알려드립니다.‍🌑🌒🌓🌔🌝🌖🌗🌘",
     },
     {
-        message: "오후에는 웹프로그래밍활용 수업이 있습니다.🧜‍♂️"
+        message: "오후에는 웹프로그래밍활용 수업이 있습니다.🧜‍♂🧚‍♀️🧙‍♂️🧛‍♀️🧝🧏‍♂️️"
     },
     {
-        message: "이제 곧 수업이 시작됩니다.🗽",
+        message: "이제 곧 수업이 시작됩니다.🗽🕋🏙️🛕🏨🗾🌉🌃🌆🌅🌄🌇🛼🚄🚂🪂🛰️🛸🚀🚢🌋⛄",
     },
 ];
 
