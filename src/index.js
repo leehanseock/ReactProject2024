@@ -14,16 +14,19 @@ import './chp06/Styles.css'
 import Accomodate from "./chp07/Accomodate";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-setInterval(()=>{
+// setInterval(()=>{
+//     root.render(
+//         <React.StrictMode>
+//             <Accomodate />
+//         </React.StrictMode>
+//     );
+//     }
+//     ,1000
+// );
     root.render(
         <React.StrictMode>
             <Accomodate />
-        </React.StrictMode>
-    );
-    }
-    ,1000
-);
-
+        </React.StrictMode>);
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
