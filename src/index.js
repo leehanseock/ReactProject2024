@@ -11,12 +11,13 @@ import Clock from './chp04/clock'
 import CommentList from './chp05/CommentList'
 import NotificationList from "./chp06/NotificationList";
 import './chp06/Styles.css'
+import Accomodate from "./chp07/Accomodate";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=>{
     root.render(
         <React.StrictMode>
-            <NotificationList />
+            <Accomodate />
         </React.StrictMode>
     );
     }
