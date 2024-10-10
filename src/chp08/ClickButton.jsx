@@ -4,17 +4,11 @@
 import {useState} from "react";
 
 function ClickButton() {
-    // const [isClicked, setIsClicked] = useState(true);
 
     // 첫번째 방법 : 함수 컴포넌트 내에 함수로 정의하는 방법
     function handleClick(){
         alert("버튼을 클릭하였습니다.");
 }
-
-    // const handleClick = () => {
-    //     setIsClicked((prevIsClicked) => !prevIsClicked);
-    //     alert("함수형")
-    // }
 
     return(
         <button onClick={handleClick}>
