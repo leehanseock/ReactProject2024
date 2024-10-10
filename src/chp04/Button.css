@@ -1,5 +1,5 @@
 Button{
-    color : white;
+    color : black;
     font-family: 궁서;
     padding: 5px 15px;
     font-size : 14px;
@@ -20,7 +20,7 @@ Button{
 
 p{
     background-color: lightcoral;
-    color : white;
+    color : black;
     font-family: 궁서;
     font-size:2em;
 }
