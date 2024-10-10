@@ -15,11 +15,12 @@ import Accomodate from "./chp07/Accomodate";
 import Toggle from "./chp08/Toggle";
 import MyButton from "./chp08/MyButton";
 import Toggle2 from "./chp08/Toggle2";
+import ClickButton from "./chp08/ClickButton";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Toggle2 />
+        <ClickButton />
     </React.StrictMode>);
 // setInterval(()=>{
 //     root.render(
