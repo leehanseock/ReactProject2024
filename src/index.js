@@ -14,11 +14,12 @@ import './chp06/Styles.css'
 import Accomodate from "./chp07/Accomodate";
 import Toggle from "./chp08/Toggle";
 import MyButton from "./chp08/MyButton";
+import Toggle2 from "./chp08/Toggle2";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <MyButton />
+        <Toggle2 />
     </React.StrictMode>);
 // setInterval(()=>{
 //     root.render(
