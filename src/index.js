@@ -21,22 +21,24 @@ import InputTest from "./chp08/InputTest";
 import ConfirmButton from "./chp08/ConfirmButton";
 import ConfirmButton2 from "./chp08/ConfirmButton2";
 import ConfirmButton3 from "./chp08/ConfirmButton3";
+import CommentList2 from "./chapter5review/CommentList2";
+import NotificationList2 from "./chapter6review/NotificationList2";
+import Greeting from "./chp09/Greeting";
+import LoginControl from "./chp09/LoginControl";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>
-        <ConfirmButton3 />
-    </React.StrictMode>);
-// setInterval(()=>{
+ root.render(
+     <React.StrictMode>
+         <LoginControl/>
+     </React.StrictMode>
+ );
+// setInterval(()=> {
 //     root.render(
-//         <React.StrictMode>
-//             <Accomodate />
-//         </React.StrictMode>
-//     );
-//     }
-//     ,1000
-// );
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+//     <React.StrictMode>
+//         <Clock2 />
+//     </React.StrictMode>)
+//     }, 1000);
+
+
 reportWebVitals();
