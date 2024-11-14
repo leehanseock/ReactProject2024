@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './chp03/Book.css'
-import './chp04/Button.css'
-import './chp04/clock.css'
+// import './index.css';
+// import './chp03/Book.css'
+// import './chp04/Button.css'
+// import './chp04/clock.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ConfirmDialog from "./chp04/ConfirmDialog";
 import Clock from './chp04/clock'
 import CommentList from './chp05/CommentList'
 import NotificationList from "./chp06/NotificationList";
-import './chp06/Styles.css'
+// import './chp06/Styles.css'
 import Accomodate from "./chp07/Accomodate";
 import Toggle from "./chp08/Toggle";
 import MyButton from "./chp08/MyButton";
@@ -32,11 +32,12 @@ import LandingPage from "./chp09/LandingPage";
 import AppNumberlist from "./chp10/AppNumberlist";
 import StudentAttendance from "./chp10/StudentAttendance";
 import AppStudentAttendance from "./chp10/AppStudentAttendance";
+import AttendanceCard from "./chp10/AvatarAttendance/AttendanceCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
  root.render(
      <React.StrictMode>
-         <AppStudentAttendance/>
+         <AttendanceCard/>
      </React.StrictMode>
  );
 // setInterval(()=> {

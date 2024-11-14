@@ -1,0 +1,56 @@
+.attendance-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.attendance-title{
+    text-align : center;
+    color : mediumseagreen;
+    margin-bottom : 30px
+}
+
+.card-container{
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.student-card{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow : 0 4px 8px rgba(0,0,0,0.1);
+    overflow:hidden;
+    width: 250px;
+    transition: transform 0.6s ease;
+}
+
+.student-card:hover {
+    transform: translateY(-100px);
+}
+
+.student-avatar {
+    width: 100%; /* 너비를 100px로 고정 */
+    height: 200px; /* 높이를 100px로 고정 */
+    border-radius: 10px;
+    object-fit: cover; /* 이미지의 비율을 유지하면서 잘라서 맞춤 */
+}
+
+.student-info {
+    padding: 15px
+}
+
+.student-info h3{
+    margin: 0;
+    font-family: Mapo홍대프리덤;
+    color: coral;
+    font-size : 1.2em;
+}
+
+.student-info p{
+    margin : 5px 0 0;
+    font-size: 1em;
+    color: darkslategrey;
+    font-family: Mapo배낭여행;
+}
