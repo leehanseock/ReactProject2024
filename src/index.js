@@ -37,11 +37,15 @@ import NameForm from "./chp11/NameForm";
 import RequestForm from "./chp11/RequestForm";
 import NameRequestForm from "./chp11/NameRequestForm";
 import SignUp from "./chp11/SignUp";
+import Calculator from "./chp12/Calculator";
+import Calculator2 from "./chp12/Calculator2";
+import Calculator3 from "./chp12/Calculator3";
+import DistanceConverter from "./chp12/distance/DistanceConverter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
  root.render(
      <React.StrictMode>
-         <SignUp/>
+         <DistanceConverter />
      </React.StrictMode>
  );
 // setInterval(()=> {
